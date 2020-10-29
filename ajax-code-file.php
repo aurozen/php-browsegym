@@ -25,10 +25,9 @@
               $SMSText="Hello, We can see you have fitness goals. Download the Aurozen App to acheive them https://play.google.com/store/apps/details?id=com.aurozenuserapp.user";
               	$params = array(
 			    'credentials' => array(
-			        'key' => 'AKIAYRXIBNXI2QXNGPTY',
-			        'secret' => 'gdf1Rve9LCp+79fNnaPlsuQrdwf1CipwU4XIKceJ',
+			        
 			    ),
-			    'region' => 'ap-south-1', // < your aws from SNS Topic region AKIAYRXIBNXIQDJJZ2UU ++++ NAdt4cnqumLlrYOWKsacmFUhwB65GhB2PND2Oiba
+			    'region' => 'ap-south-1', //
 			    'version' => 'latest'
 			);
 			$sns = new \Aws\Sns\SnsClient($params);
